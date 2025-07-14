@@ -47,7 +47,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="bg-[#00d4d0]/10 rounded-2xl p-8">
                 <Image
-                  src="/placeholder.svg?height=400&width=500"
+                  src="/about.png"
                   alt="Cardinal Creatives Team"
                   width={500}
                   height={400}

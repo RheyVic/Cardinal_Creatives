@@ -95,6 +95,7 @@ export default function PortfolioPage() {
 
   const categories = [
     "All",
+    "Logo",
     "Brand Identity",
     "UI/UX Design",
     "Print Design",
@@ -121,13 +122,15 @@ export default function PortfolioPage() {
       {/* Filter Section */}
       <section className="py-8 px-4 bg-gray-50">
         <div className="container mx-auto">
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex flex-wrap justify-center gap-4 drop-shadow-lg brightness-110 contrast-125">
             {categories.map((category) => (
               <Button
                 key={category}
                 variant={category === activeCategory ? "default" : "outline"}
                 className={
-                  category === activeCategory
+                  category === "Logo"
+                    ? "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border bg-background hover:bg-accent h-10 px-4 py-2 border-gray-300 text-gray-700 hover:border-[#00d4d0] hover:text-[#00d4d0]"
+                    : category === activeCategory
                     ? "bg-[#00d4d0] text-gray-900 hover:bg-[#00d4d0]/90"
                     : "border-gray-300 text-gray-700 hover:border-[#00d4d0] hover:text-[#00d4d0]"
                 }
