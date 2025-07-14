@@ -1,0 +1,10 @@
+<svg width="408" height="359" viewBox="0 0 408 359" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Main C shape -->
+<path d="M368 60C420 60 462 102 462 154C462 206 420 248 368 248" stroke="#00E6CC" stroke-width="16" stroke-linecap="round" fill="none"/>
+<path d="M40 179.5C40 95.3 107.3 28 191.5 28C275.7 28 343 95.3 343 179.5C343 263.7 275.7 331 191.5 331C107.3 331 40 263.7 40 179.5Z" stroke="#00E6CC" stroke-width="16" stroke-linecap="round" fill="none"/>
+<!-- Arrow -->
+<path d="M44 137L169 71L169 126L294 126L294 180L169 180L169 235L44 169Z" fill="#00E6CC"/>
+<!-- Bottom right diagonal -->
+<path d="M270 270L350 350L400 350" stroke="#00E6CC" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M310 315L350 350L315 385" stroke="#00E6CC" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
