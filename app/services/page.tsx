@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Footer } from "@/components/footer"
 import { Palette, Printer, Monitor, Package, Smartphone, Globe, Code, Layers } from "lucide-react"
 
 export default function ServicesPage() {
@@ -288,50 +289,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12 px-4">
-        <div className="container mx-auto">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-[#00d4d0] rounded-lg flex items-center justify-center">
-                  <Palette className="w-5 h-5 text-gray-900" />
-                </div>
-                <span className="text-xl font-bold">Cardinal Creatives</span>
-              </div>
-              <p className="text-gray-400">Creating exceptional visual experiences that inspire and engage.</p>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Services</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li>Brand Identity</li>
-                <li>Logo Design</li>
-                <li>Print Design</li>
-                <li>Digital Graphics</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Company</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li>About Us</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
-                <li>Partnership</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Partner</h4>
-              <p className="text-gray-400 mb-2">Galadevs</p>
-              <p className="text-sm text-gray-500">
-                Digital solutions, software development, web development & prototyping
-              </p>
-            </div>
-          </div>
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Cardinal Creatives. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }

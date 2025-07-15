@@ -2,6 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import { Footer } from "@/components/footer"
 import { ArrowRight, Palette, Zap, Users, Award } from "lucide-react"
 
 export default function HomePage() {
@@ -161,54 +162,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12 px-4">
-        <div className="container mx-auto">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <Image 
-                  src="/Logo.png" 
-                  alt="Cardinal Creatives Logo" 
-                  width={32} 
-                  height={32}
-                  className="h-8 w-8"
-                />
-                <span className="text-xl font-bold">Cardinal Creatives</span>
-              </div>
-              <p className="text-gray-400">Creating exceptional visual experiences that inspire and engage.</p>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Services</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li>Brand Identity</li>
-                <li>Logo Design</li>
-                <li>Print Design</li>
-                <li>Digital Graphics</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Company</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li>About Us</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
-                <li>Partnership</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Partner</h4>
-              <p className="text-gray-400 mb-2">Galadevs</p>
-              <p className="text-sm text-gray-500">
-                Digital solutions, software development, web development & prototyping
-              </p>
-            </div>
-          </div>
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Cardinal Creatives. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }
