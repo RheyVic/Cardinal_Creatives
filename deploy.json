@@ -1,0 +1,10 @@
+{
+  "build": {
+    "command": "npm run build",
+    "outputDirectory": "out"
+  },
+  "runtime": "nodejs18.x",
+  "environment": {
+    "NODE_VERSION": "18"
+  }
+}
