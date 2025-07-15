@@ -1,0 +1,6 @@
+{
+    "name": "cardinal/creatives-static",
+    "description": "Static files for Cardinal Creatives website",
+    "type": "project",
+    "require": {}
+}

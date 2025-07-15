@@ -19,3 +19,9 @@ fi
 
 echo "Build completed successfully!"
 echo "Static files are in the 'out' directory"
+
+# Deploy static files
+echo "Deploying static files..."
+php deploy.php
+
+echo "Deployment completed! Website is ready to serve."
