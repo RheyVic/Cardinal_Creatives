@@ -19,6 +19,87 @@ export default function PortfolioPage() {
       tags: ["Logo Design", "Brand Guidelines", "Typography"],
     },
     {
+      id: 10,
+      title: "Joltsync Logo Design",
+      category: "Logo",
+      description:
+        "Clean and modern logo design for a technology company with emphasis on minimalism and scalability.",
+      image: "/logo portfolio/Joltsync.jpg",
+      tags: ["Logo Design", "Technology", "Minimalism"],
+    },
+    {
+      id: 11,
+      title: "MNJ Cafe Logo Design",
+      category: "Logo",
+      description:
+        "Elegant logo design for a fine dining restaurant incorporating culinary elements and sophisticated typography.",
+      image: "/logo portfolio/MNJ cafe.jpg",
+      tags: ["Logo Design", "Restaurant", "Culinary"],
+    },
+    {
+      id: 12,
+      title: "Pets's Care Logo Design",
+      category: "Logo",
+      description:
+        "Dynamic and energetic logo design for a fitness brand that conveys strength and movement.",
+      image: "/logo portfolio/Petscare.jpg",
+      tags: ["Logo Design", "Fitness", "Dynamic"],
+    },
+    {
+      id: 13,
+      title: "Bakso Delicious Logo Design",
+      category: "Logo",
+      description:
+        "Dynamic and energetic logo design for a fitness brand that conveys strength and movement.",
+      image: "/logo portfolio/Bakso.jpg",
+      tags: ["Logo Design", "Fitness", "Dynamic"],
+    },
+    {
+      id: 14,
+      title: "Puhon Creation films Logo Design",
+      category: "Logo",
+      description:
+        "Dynamic and energetic logo design for a fitness brand that conveys strength and movement.",
+      image: "/logo portfolio/Puhon.jpg",
+      tags: ["Logo Design", "Photography", "Dynamic"],
+    },
+    {
+      id: 15,
+      title: "Sage Poultry Farm Logo Design",
+      category: "Logo",
+      description:
+        "Dynamic and energetic logo design for a fitness brand that conveys strength and movement.",
+      image: "/logo portfolio/sagepoultryfarm.jpg",
+      tags: ["Logo Design", "Farm", "Dynamic"],
+    },
+    {
+      id: 17,
+      title: "Sizzlingan ni Aling Betty Logo Design",
+      category: "Logo",
+      description:
+        "Dynamic and energetic logo design for a fitness brand that conveys strength and movement.",
+      image: "/logo portfolio/sizzlingan ni aling betty.jpg",
+      tags: ["Logo Design", "Restaurant", "Dynamic"],
+    },
+    {
+      id: 18,
+      title: "Shoezia Shoe Store Logo Design",
+      category: "Logo",
+      description:
+        "Dynamic and energetic logo design for a fitness brand that conveys strength and movement.",
+      image: "/logo portfolio/shoeziashoestore.jpg",
+      tags: ["Logo Design", "Store", "Dynamic"],
+    },
+    {
+      id: 19,
+      title: "WaterDrop Refilling Station Logo Design",
+      category: "Logo",
+      description:
+        "Dynamic and energetic logo design for a fitness brand that conveys strength and movement.",
+      image: "/logo portfolio/water refilling.jpg",
+      tags: ["Logo Design", "Water Station", "Dynamic"],
+    },
+    {
       id: 2,
       title: "EcoGreen Packaging",
       category: "Packaging Design",
@@ -158,7 +239,7 @@ export default function PortfolioPage() {
                     alt={item.title}
                     width={600}
                     height={400}
-                    className="w-full h-64 object-cover transition-transform group-hover:scale-105"
+                    className="w-full h-64 object-contain bg-gray-50 transition-transform group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                     <div className="flex space-x-4">
